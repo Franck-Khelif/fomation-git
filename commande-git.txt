@@ -24,4 +24,11 @@ git merge <branch>
 	(attention: bien se positionner sur la branche qui va recevoir la fusion)
 git branch -d <nom-de-branch>
 	supprimer une branche
+git remote add origin <address>
+	ajouter un dépôt distant à notre projet (vers GitHub par exemple)
+git push 
+	pousser des modifications vers le dépôt distant
+
+trame pour un push:
+créer/modifier un fichier > ajouter la modification dans l'index (git add) > intégrer les modification dans l'historique (dépôt local) (git commit) > publier sur le dépôt distant (git push)
 
