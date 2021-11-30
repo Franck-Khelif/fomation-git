@@ -1,0 +1,22 @@
+git init
+	initialiser un projet git (créer un dépôt local)
+git status
+	afficher l'état du projet
+git log
+	affiche l'historique du dépot
+git add <nomdufichier>
+	ex: giy add exemple.txt
+	ajoute le ou les fichiers à la zone d'attente
+git commit -m "<message>"
+	ajoute le ou les fichiers de la zone d'attente dans le dépôt local
+git commit --amend -m "<message>
+	modifier le message du dernier commit 
+git branch
+	lister les branches d'un projet
+git branch <nom>
+	ex: git branch test
+	créer une nouvelle branche
+git switch <nom> ou git checkout <nom>
+	ex: git checkout test
+	change de branche
+
